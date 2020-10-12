@@ -1,5 +1,5 @@
-node_modules
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#This is the .gitignore file, anything in here is ignored by git
 
 # dependencies
 /node_modules
