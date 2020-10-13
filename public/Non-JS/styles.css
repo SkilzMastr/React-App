@@ -1,0 +1,13 @@
+main {
+    background-color: blue;
+  }
+:root {
+    background-color: blue;
+}
+button {
+    color:green;
+    background-color: red;
+}
+div {
+  color: red;
+}

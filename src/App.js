@@ -56,21 +56,18 @@ function App() {
   //Everything in the return is HTML/JS
   return (
     <>
-    <TodoList todos={todos} toggleTodo={toggleTodo}/>
-    <input ref={todoNameRef} type="text" />
-    <button onClick={handleAddTodo}>Add Todo</button>
-    <button onClick={handleClearTodos}>Clear Complete</button>
-    <div>{todos.filter(todo => !todo.complete).length} Left Todo</div>
+    <main>
+      <TodoList todos={todos} toggleTodo={toggleTodo}/>
+      <input ref={todoNameRef} type="text" />
+      <br/>
+      <button onClick={handleAddTodo} id='add'>Add Assignment</button>
+      <button onClick={handleClearTodos}id='complete'>Clear Complete</button>
+      <div>{todos.filter(todo => !todo.complete).length} Left Assignments</div>
+    </main>
     </>
   );
 }
-/*
-Let me explain the tags (Anything in {} is JS):
-<TodoList>, this is a custom tag made in ./TodoList.js 
-<input> This has a ref, we call it to get the input of the todo name
-<button> On click it calls a function.
-<div> basic div for HTML displays todos left.
-*/
+
 
 
 
