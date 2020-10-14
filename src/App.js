@@ -57,6 +57,7 @@ function App() {
   return (
     <>
     <main>
+      <br/>
       <TodoList todos={todos} toggleTodo={toggleTodo}/>
       <input ref={todoNameRef} type="text" />
       <br/>

@@ -1,13 +1,13 @@
 main {
-    background-color: blue;
+    background-color: lightblue;
   }
 :root {
-    background-color: blue;
+    background-color: lightblue;
 }
 button {
-    color:green;
-    background-color: red;
+    color:black;
+    background-color: gold;
 }
 div {
-  color: red;
+  color: black;
 }
