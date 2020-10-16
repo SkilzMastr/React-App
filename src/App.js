@@ -57,13 +57,13 @@ function App() {
   return (
     <>
     <main>
-      <br/>
+      <header><h2>Assignments</h2></header>
       <TodoList todos={todos} toggleTodo={toggleTodo}/>
-      <input ref={todoNameRef} type="text" />
+      <input ref={todoNameRef} type="text" placeholder="Enter Assignment"/>
       <br/>
       <button onClick={handleAddTodo} id='add'>Add Assignment</button>
       <button onClick={handleClearTodos}id='complete'>Clear Complete</button>
-      <div>{todos.filter(todo => !todo.complete).length} Left Assignments</div>
+      <div>{todos.filter(todo => !todo.complete).length} Assignments Left</div>
     </main>
     </>
   );
